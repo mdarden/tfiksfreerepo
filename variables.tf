@@ -2,6 +2,8 @@ variable "ibmcloud_api_key" {default = "oImKWxZqcPUIr7PvPotDhircM-4ozY50uBBXdDmZ
 
 variable "region" {default = "us-south"}
 
+variable "datacenter" {default = "dal10"}
+
 variable "cluster_name" {
   default = "clusterfree"
 }
