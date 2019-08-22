@@ -13,6 +13,3 @@ variable "public_vlan_id" {}
 variable "cluster_name" {
   default = "cluster"
 }
-variable kube_version {
-  default = "3.11.104_openshift"
-}
