@@ -2,6 +2,7 @@ resource "ibm_container_cluster" "cluster" {
   name              = "${var.cluster_name}${random_id.name.hex}"
   datacenter        = "${var.datacenter}"
   hardware        = "${var.hardware}"
+  machine_type      = "${var.machine_type}"
 }
 
 resource "random_id" "name" {
