@@ -3,7 +3,6 @@ resource "ibm_container_cluster" "cluster" {
   datacenter        = "${var.datacenter}"
   hardware        = "${var.hardware}"
   machine_type      = "${var.machine_type}"
-  billing      = "${var.billing}"
 }
 
 resource "random_id" "name" {
