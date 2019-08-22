@@ -6,9 +6,7 @@ variable "datacenter" {default = "dal10"}
 
 variable "hardware" {default = "shared"}
 
-variable "machine_type" {default = "machine_type"}
-
-variable "billing" {default = "free"}
+variable "machine_type" {default = "free"}
 
 variable "cluster_name" {
   default = "clusterfree"
