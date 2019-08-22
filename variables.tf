@@ -4,6 +4,8 @@ variable "region" {default = "us-south"}
 
 variable "datacenter" {default = "dal10"}
 
+variable "hardware" {default = "shared"}
+
 variable "cluster_name" {
   default = "clusterfree"
 }
